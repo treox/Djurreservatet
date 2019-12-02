@@ -5,6 +5,8 @@ namespace Djurreservatet
     public class Bear : Animal
     {
         public int bearDuration;
+        public int bearFoodCountLeaf;
+        public int bearFoodCountMeat;
         public Bear(string type, string name, int hungerLevel, int animalStart) : base(type, name, hungerLevel, animalStart)
         {
 

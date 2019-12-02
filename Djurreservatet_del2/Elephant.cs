@@ -5,6 +5,7 @@ namespace Djurreservatet
     public class Elephant : Animal
     {
         public int elephantDuration;
+        public int elephantFoodCountLeaf;
 
         public Elephant(string type, string name, int hungerLevel, int animalStart) : base(type, name, hungerLevel, animalStart)
         {
