@@ -44,23 +44,23 @@ namespace Djurreservatet
             switch(select.Key)
             {
                 case ConsoleKey.D1:
-                    elephant.FeedAnimal();
+                    elephant.FeedAnimal(start, durationIntensity);
                     goto askToFeedQuit;
 
                 case ConsoleKey.D2:
-                    giraffe.FeedAnimal();
+                    giraffe.FeedAnimal(start, durationIntensity);
                     goto askToFeedQuit;
 
                 case ConsoleKey.D3:
-                    coyote.FeedAnimal();
+                    coyote.FeedAnimal(start, durationIntensity);
                     goto askToFeedQuit;
 
                 case ConsoleKey.D4:
-                    seal.FeedAnimal();
+                    seal.FeedAnimal(start, durationIntensity);
                     goto askToFeedQuit;
 
                 case ConsoleKey.D5:
-                    bear.FeedAnimal();
+                    bear.FeedAnimal(start, durationIntensity);
                     goto askToFeedQuit;
 
                 case ConsoleKey.D6:
