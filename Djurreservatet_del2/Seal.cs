@@ -4,7 +4,8 @@ namespace Djurreservatet
 {
     public class Seal : Animal
     {
-        public int sealDuration;        
+        public int sealDuration;
+        public int sealFoodCountMeat;      
         public Seal(string type, string name, int hungerLevel, int animalStart) : base(type, name, hungerLevel, animalStart)
         {
 

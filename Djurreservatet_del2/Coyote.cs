@@ -5,6 +5,7 @@ namespace Djurreservatet
     public class Coyote : Animal
     {
         public int coyoteDuration;
+        public int coyoteFoodCountMeat;
 
         public Coyote(string type, string name, int hungerLevel, int animalStart) : base(type, name, hungerLevel, animalStart)
         {

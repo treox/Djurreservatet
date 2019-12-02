@@ -5,6 +5,7 @@ namespace Djurreservatet
     public class Giraffe : Animal
     {
         public int giraffeDuration;
+        public int giraffeFoodCountLeaf;
         public Giraffe(string type, string name, int hungerLevel, int animalStart) : base(type, name, hungerLevel, animalStart)
         {
 

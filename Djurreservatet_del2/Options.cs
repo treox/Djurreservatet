@@ -13,7 +13,8 @@ namespace Djurreservatet
             Console.WriteLine("[4] Mata säl");
             Console.WriteLine("[5] Mata björn");
             Console.WriteLine("[6] Se status");
-            Console.WriteLine("[7] Avsluta");
+            Console.WriteLine("[7] Se matförråd");
+            Console.WriteLine("[8] Avsluta");
             Console.WriteLine();
         }
     }
